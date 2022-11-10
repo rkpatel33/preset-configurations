@@ -1,0 +1,260 @@
+table_name: Yahoo Historical Symbols + Prices
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+schema: public
+sql: "SELECT\n    data.symbol as symbol,\n    data.name as name,\n    data.date as\
+  \ date,\n    data.open as open,\n    data.high as high,\n    data.low as low,\n\
+  \    data.close as close,\n    data.volume as volume,\n    data.close_1d_ago as\
+  \ close_1d_ago,\n    data.close_5d_ago as close_5d_ago,\n    data.close_boy as close_boy,\n\
+  \    data.close_high as close_high,\n    (data.close / data.close_1d_ago) - 1 as\
+  \ pct_ch_1d,\n    (data.close / data.close_5d_ago) - 1 as pct_ch_5d,\n    (data.close\
+  \ / data.close_boy) - 1 as pct_ch_ytd\nFROM (\n  SELECT\n        s.symbol as symbol,\n\
+  \        s.name as name,\n        p.date as date,\n        p.open as open,\n   \
+  \     p.high as high,\n        p.low as low,\n        p.close as close,\n      \
+  \  p.volume as volume,\n        LAG(p.close, 1, p.close) OVER(PARTITION BY s.symbol\
+  \ ORDER BY p.date ASC) as close_1d_ago,\n        LAG(p.close, 5, p.close) OVER(PARTITION\
+  \ BY s.symbol ORDER BY p.date ASC) as close_5d_ago,\n        MAX(p.close) OVER(PARTITION\
+  \ BY s.symbol ORDER BY p.date ASC) as close_high,\n        (SELECT LAST_VALUE(inner_price.close)\
+  \ OVER(PARTITION BY inner_price.symbol_id ORDER BY inner_price.date DESC) FROM yahoo_price\
+  \ AS inner_price WHERE inner_price.symbol_id = s.symbol AND inner_price.date < (SELECT\
+  \ date_trunc('year', now())) LIMIT 1) as close_boy\n    FROM yahoo_symbol as s,\
+  \ yahoo_price as p\n    WHERE s.symbol = p.symbol_id\n    ORDER BY p.date DESC\n\
+  ) AS data;\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+uuid: f6feb2d7-9625-496f-bdd5-e84d7ac029ce
+metrics:
+- metric_name: avg_pct_ch_1d
+  verbose_name: Pct ch 1d
+  metric_type: null
+  expression: 'avg(pct_ch_1d)    '
+  description: null
+  d3format: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: avg_pct_ch_5d
+  verbose_name: Pct ch 5d
+  metric_type: null
+  expression: avg(pct_ch_5d)
+  description: null
+  d3format: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: avg_pct_ch_ytd
+  verbose_name: Pct ch YTD
+  metric_type: null
+  expression: avg(pct_ch_ytd)
+  description: null
+  d3format: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: avg_close
+  verbose_name: Avg close
+  metric_type: null
+  expression: avg(close)
+  description: null
+  d3format: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: count
+  verbose_name: Count
+  metric_type: null
+  expression: count(*)
+  description: null
+  d3format: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+columns:
+- column_name: close_1d_ago
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: pct_ch_1d
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: close_5d_ago
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: pct_ch_5d
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: date
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: DATE
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: pct_ch_ytd
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: close_boy
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: close_high
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: close
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: volume
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: open
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: high
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: low
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: name
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: symbol
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+version: 1.0.0
+database_uuid: 4200c1e3-a79e-4481-8513-2176a2182dfe

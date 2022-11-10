@@ -1,0 +1,62 @@
+slice_name: Vehicle miles travelled
+viz_type: echarts_timeseries_line
+params:
+  datasource: 25__table
+  viz_type: echarts_timeseries_line
+  slice_id: 120
+  granularity_sqla: date
+  time_grain_sqla: P1D
+  time_range: 'DATEADD(DATETIME("now"), -10, year) : now'
+  metrics:
+  - avg
+  groupby:
+  - series_id
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - TRFVOLUSM227NFWA
+    - VMTD11
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_8gzswmnq0di_i7bual8oxes
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: series_id
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  time_compare: []
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: ',d'
+  minorSplitLine: true
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 8bf95b01-d4d7-45ea-a446-894541c2c08f
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

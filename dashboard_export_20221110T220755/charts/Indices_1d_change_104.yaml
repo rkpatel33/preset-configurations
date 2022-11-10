@@ -1,0 +1,64 @@
+slice_name: Indices 1d change
+viz_type: echarts_timeseries_line
+params:
+  datasource: 35__table
+  viz_type: echarts_timeseries_line
+  slice_id: 104
+  granularity_sqla: datetime
+  time_grain_sqla: PT1M
+  time_range: 'DATETIME("today 09:30:00" ) : DATETIME("tomorrow" )'
+  metrics:
+  - pct_change_1d_ago
+  groupby:
+  - name
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - ^IXIC
+    - ^GSPC
+    - ^NDXT
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_vahplncg1eb_r0k9mzdh0i8
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: symbol
+  limit: 100
+  order_desc: true
+  row_limit: '100000'
+  truncate_metric: true
+  show_empty_columns: true
+  rolling_type: null
+  comparison_type: values
+  resample_method: bfill
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: ',.1%'
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: bd1817b7-63c3-4476-ae9b-3402a52340a6
+version: 1.0.0
+dataset_uuid: c9eec243-9d9a-472e-88e5-c75bf095683c

@@ -1,0 +1,53 @@
+slice_name: FANGS 1y pct change
+viz_type: compare
+params:
+  datasource: 34__table
+  viz_type: compare
+  slice_id: 108
+  granularity_sqla: date
+  time_grain_sqla: PT1M
+  time_range: 'DATETIME("1 year ago" ) : DATETIME("tomorrow" )'
+  metrics:
+  - avg_close
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - META
+    - AMZN
+    - AAPL
+    - NFLX
+    - GOOG
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_vahplncg1eb_r0k9mzdh0i8
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: symbol
+  groupby:
+  - symbol
+  limit: 100
+  order_desc: true
+  row_limit: '100000'
+  color_scheme: supersetColors
+  bottom_margin: auto
+  x_ticks_layout: auto
+  x_axis_format: smart_date
+  left_margin: auto
+  y_axis_format: ',.1%'
+  y_axis_bounds:
+  - null
+  - null
+  rolling_type: None
+  comparison_type: values
+  resample_method: bfill
+  annotation_layers: []
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 95c3a597-4dbf-4f92-b4d7-344f78f897d6
+version: 1.0.0
+dataset_uuid: f6feb2d7-9625-496f-bdd5-e84d7ac029ce

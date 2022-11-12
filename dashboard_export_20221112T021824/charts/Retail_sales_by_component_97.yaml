@@ -1,0 +1,59 @@
+slice_name: Retail sales by component
+viz_type: echarts_timeseries_line
+params:
+  datasource: 25__table
+  viz_type: echarts_timeseries_line
+  granularity_sqla: date
+  time_grain_sqla: P1D
+  time_range: 'DATETIME("2021-06-01") : now'
+  metrics:
+  - avg
+  groupby:
+  - title
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: title
+    operator: LIKE
+    operatorId: LIKE
+    comparator: '%Retail Sales%'
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_ni8cc8olu4m_t7ielu2adw
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  time_compare:
+  - 1 year ago
+  comparison_type: percentage
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: ',.1%'
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: d53e8c90-ec27-4ad6-8174-4db5fab98e92
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

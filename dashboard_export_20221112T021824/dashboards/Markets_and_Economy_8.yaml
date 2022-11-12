@@ -1,0 +1,5542 @@
+dashboard_title: Markets and Economy
+description: null
+css: ''
+slug: null
+uuid: c370009e-51c4-44cd-b581-e6266c3cbb2b
+position:
+  CHART-VuRpzyKOpI:
+    children: []
+    id: CHART-VuRpzyKOpI
+    meta:
+      chartId: 88
+      height: 50
+      sliceName: Treasuries Curve (10y-2y)
+      uuid: b690a79e-5275-4514-90f8-caf22054fe64
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    - ROW-hGLljxbBE
+    type: CHART
+  CHART-explore-100-1:
+    children: []
+    id: CHART-explore-100-1
+    meta:
+      chartId: 100
+      height: 50
+      sliceName: PTON 1y
+      uuid: fe08a050-2245-44b2-82c9-962a6d4b3e92
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-AubJzOyKJ
+    type: CHART
+  CHART-explore-101-1:
+    children: []
+    id: CHART-explore-101-1
+    meta:
+      chartId: 101
+      height: 50
+      sliceName: PTON 1d change
+      uuid: 3871c660-c40e-4206-9d7d-022b2671f46e
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-H_cmY_ZWI
+    type: CHART
+  CHART-explore-102-1:
+    children: []
+    id: CHART-explore-102-1
+    meta:
+      chartId: 102
+      height: 50
+      sliceName: TSLA 1y
+      uuid: d4af3867-5553-4e39-baf6-484bf095998d
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-AubJzOyKJ
+    type: CHART
+  CHART-explore-103-1:
+    children: []
+    id: CHART-explore-103-1
+    meta:
+      chartId: 103
+      height: 50
+      sliceName: FANGS 1d change
+      uuid: bd758997-1d43-404a-810b-46e7091e3d12
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-H_cmY_ZWI
+    type: CHART
+  CHART-explore-104-1:
+    children: []
+    id: CHART-explore-104-1
+    meta:
+      chartId: 104
+      height: 50
+      sliceName: Indices 1d change
+      uuid: bd1817b7-63c3-4476-ae9b-3402a52340a6
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-Z3m7oNzJo
+    type: CHART
+  CHART-explore-105-1:
+    children: []
+    id: CHART-explore-105-1
+    meta:
+      chartId: 105
+      height: 50
+      sliceName: Gold 5y
+      uuid: a2ca6513-096f-4057-9a50-e4c849b8ab2d
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    - ROW-sWaN5D1bN
+    type: CHART
+  CHART-explore-106-1:
+    children: []
+    id: CHART-explore-106-1
+    meta:
+      chartId: 106
+      height: 50
+      sliceName: Crude Oil 5y
+      uuid: 95829754-e69a-491e-8b9f-9c670364558a
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    - ROW-sWaN5D1bN
+    type: CHART
+  CHART-explore-107-1:
+    children: []
+    id: CHART-explore-107-1
+    meta:
+      chartId: 107
+      height: 50
+      sliceName: Growth stocks 1d change
+      uuid: e35008da-00dc-425b-86ef-e757ca2892f3
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-H_cmY_ZWI
+    type: CHART
+  CHART-explore-108-1:
+    children: []
+    id: CHART-explore-108-1
+    meta:
+      chartId: 108
+      height: 50
+      sliceName: FANGS 1y pct change
+      sliceNameOverride: FANGS 1y pct change
+      uuid: 95c3a597-4dbf-4f92-b4d7-344f78f897d6
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-LpRqy8kLER
+    type: CHART
+  CHART-explore-109-1:
+    children: []
+    id: CHART-explore-109-1
+    meta:
+      chartId: 109
+      height: 50
+      sliceName: Indices 1y pct change
+      sliceNameOverride: Indices 1y pct change
+      uuid: cd29700b-6884-4eca-8e0d-63a3bd40e5ab
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-LpRqy8kLER
+    type: CHART
+  CHART-explore-110-1:
+    children: []
+    id: CHART-explore-110-1
+    meta:
+      chartId: 110
+      height: 50
+      sliceName: Durable Goods Orders
+      uuid: f773a6bb-c17a-49cf-a163-28846732c6e5
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-Lg-3H0tYK
+    type: CHART
+  CHART-explore-111-1:
+    children: []
+    id: CHART-explore-111-1
+    meta:
+      chartId: 111
+      height: 50
+      sliceName: Initial and continuing jobless claims
+      uuid: 0910e07c-b78e-4759-96db-888d2a4b9bd8
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-nwVAwD1ad
+    type: CHART
+  CHART-explore-112-1:
+    children: []
+    id: CHART-explore-112-1
+    meta:
+      chartId: 112
+      height: 50
+      sliceName: SONIA (Daily Sterling Overnight Index Average)
+      uuid: ae92f992-aa85-4fe1-a385-aed9e272e06b
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    - ROW-hGLljxbBE
+    type: CHART
+  CHART-explore-113-1:
+    children: []
+    id: CHART-explore-113-1
+    meta:
+      chartId: 113
+      height: 50
+      sliceName: Natural Gas Futures 5y
+      uuid: 01596ed0-30a8-408f-95be-fafd0fce79cd
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    - ROW-9LTd_UGy5
+    type: CHART
+  CHART-explore-114-1:
+    children: []
+    id: CHART-explore-114-1
+    meta:
+      chartId: 114
+      height: 50
+      sliceName: Average Hourly Earnings
+      uuid: d8a3b713-aa69-4d81-b4d3-ec831d4228ca
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-NYkc_xjHZ
+    type: CHART
+  CHART-explore-115-1:
+    children: []
+    id: CHART-explore-115-1
+    meta:
+      chartId: 115
+      height: 50
+      sliceName: Jobs gap
+      uuid: 238cbaf6-6378-440e-be83-2169ba02ad71
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-nwVAwD1ad
+    type: CHART
+  CHART-explore-116-1:
+    children: []
+    id: CHART-explore-116-1
+    meta:
+      chartId: 116
+      height: 50
+      sliceName: Job openings by sector
+      uuid: 9f7dbf67-8ed4-4045-8756-1b3440ef2615
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-NYkc_xjHZ
+    type: CHART
+  CHART-explore-117-1:
+    children: []
+    id: CHART-explore-117-1
+    meta:
+      chartId: 117
+      height: 50
+      sliceName: Hires, fires, and unfilled job vacancies
+      uuid: 76ec2a42-9a25-41b2-98e4-ad87f5f824d6
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-NYkc_xjHZ
+    type: CHART
+  CHART-explore-118-1:
+    children: []
+    id: CHART-explore-118-1
+    meta:
+      chartId: 118
+      height: 50
+      sliceName: Capacity utilization
+      uuid: 04403701-2f0e-49a6-b0d7-9af79f2546df
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-jvHgNeIoO9
+    type: CHART
+  CHART-explore-119-1:
+    children: []
+    id: CHART-explore-119-1
+    meta:
+      chartId: 119
+      height: 50
+      sliceName: PPI fertilizer
+      uuid: 5bb8bf21-5e26-4995-bd28-8466e50c63a8
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    - ROW-SPxxhNDdsb
+    type: CHART
+  CHART-explore-120-1:
+    children: []
+    id: CHART-explore-120-1
+    meta:
+      chartId: 120
+      height: 50
+      sliceName: Vehicle miles travelled
+      uuid: 8bf95b01-d4d7-45ea-a446-894541c2c08f
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-jvHgNeIoO9
+    type: CHART
+  CHART-explore-121-1:
+    children: []
+    id: CHART-explore-121-1
+    meta:
+      chartId: 121
+      height: 50
+      sliceName: Construction spending
+      uuid: d0bf138c-8518-4b39-9a25-cd72f3a937b6
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-Lg-3H0tYK
+    type: CHART
+  CHART-explore-122-1:
+    children: []
+    id: CHART-explore-122-1
+    meta:
+      chartId: 122
+      height: 50
+      sliceName: Copper (FRED)
+      uuid: 7061da68-c5fc-4a40-bb0b-82b64126510f
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    - ROW-SPxxhNDdsb
+    type: CHART
+  CHART-explore-123-1:
+    children: []
+    id: CHART-explore-123-1
+    meta:
+      chartId: 123
+      height: 50
+      sliceName: Lumber (FRED)
+      uuid: ad7acede-7ea0-4f57-b43e-79f7377a2a1c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    - ROW-9LTd_UGy5
+    type: CHART
+  CHART-explore-124-1:
+    children: []
+    id: CHART-explore-124-1
+    meta:
+      chartId: 124
+      height: 50
+      sliceName: Iron (FRED)
+      uuid: cc5653a7-e16f-4e21-94e5-a3f340a44600
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    - ROW-SPxxhNDdsb
+    type: CHART
+  CHART-explore-125-1:
+    children: []
+    id: CHART-explore-125-1
+    meta:
+      chartId: 125
+      height: 50
+      sliceName: CPI rent & owners equivalent rent
+      uuid: cf53554f-a9ad-4bcb-a52b-1895abc94312
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    - ROW-DJOPunSBs
+    type: CHART
+  CHART-explore-126-1:
+    children: []
+    id: CHART-explore-126-1
+    meta:
+      chartId: 126
+      height: 50
+      sliceName: CPI all, food, energy, shelter
+      uuid: 53f71b3d-c4b2-45e6-940c-f6c604c52482
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    - ROW-o_CNz827s
+    type: CHART
+  CHART-explore-127-1:
+    children: []
+    id: CHART-explore-127-1
+    meta:
+      chartId: 127
+      height: 50
+      sliceName: CPI consumer components
+      uuid: 5f59dced-9e11-4b8c-9cb4-9f485280c12f
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    - ROW-o_CNz827s
+    type: CHART
+  CHART-explore-128-1:
+    children: []
+    id: CHART-explore-128-1
+    meta:
+      chartId: 128
+      height: 50
+      sliceName: CPI specific components
+      uuid: d8559ea8-e8cc-44b4-9aad-5b8c6c6c02a0
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    - ROW-DJOPunSBs
+    type: CHART
+  CHART-explore-129-1:
+    children: []
+    id: CHART-explore-129-1
+    meta:
+      chartId: 129
+      height: 50
+      sliceName: Vacancy rates
+      uuid: 74a739d9-43f6-4b91-ab40-98c377f20ff1
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-wU9MPI6eP
+    - ROW-MTbv9h0x2
+    type: CHART
+  CHART-explore-131-1:
+    children: []
+    id: CHART-explore-131-1
+    meta:
+      chartId: 131
+      height: 50
+      sliceName: Personal income growth (nominal, real)
+      uuid: 72a4c9a9-6870-4004-ab47-6b37d6bc14dc
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-F94hiTgHaG
+    type: CHART
+  CHART-explore-132-1:
+    children: []
+    id: CHART-explore-132-1
+    meta:
+      chartId: 132
+      height: 50
+      sliceName: Savings rate
+      uuid: ae9929c6-30dd-4f47-9f62-0cb855a48d26
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-jvHgNeIoO9
+    type: CHART
+  CHART-explore-133-1:
+    children: []
+    id: CHART-explore-133-1
+    meta:
+      chartId: 133
+      height: 50
+      sliceName: Debt Service as a Percent of Disposable Income
+      uuid: 9c8e001e-e837-4229-8d9f-fbf45d63c980
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-F94hiTgHaG
+    type: CHART
+  CHART-explore-134-1:
+    children: []
+    id: CHART-explore-134-1
+    meta:
+      chartId: 134
+      height: 50
+      sliceName: Mortgage Debt Service Payments as a Percent of Disposable Personal
+        Income
+      uuid: 9c586cf2-98de-42e0-a72d-7b8d2694a476
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-F94hiTgHaG
+    type: CHART
+  CHART-explore-135-1:
+    children: []
+    id: CHART-explore-135-1
+    meta:
+      chartId: 135
+      height: 50
+      sliceName: Median home price
+      uuid: 03a667fe-4e00-4487-ab12-85ea88871682
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-wU9MPI6eP
+    - ROW-MTbv9h0x2
+    type: CHART
+  CHART-explore-136-1:
+    children: []
+    id: CHART-explore-136-1
+    meta:
+      chartId: 136
+      height: 50
+      sliceName: Inflation expectations
+      uuid: 0ad5b907-7a30-47f0-b0ef-c3de207c89b9
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    - ROW-o_CNz827s
+    type: CHART
+  CHART-explore-138-1:
+    children: []
+    id: CHART-explore-138-1
+    meta:
+      chartId: 138
+      height: 50
+      sliceName: Equity vs. Rates
+      uuid: 02498fd5-122e-4b14-af8c-e66d1df631bf
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-X5IKg0PoLF
+    type: CHART
+  CHART-explore-139-1:
+    children: []
+    id: CHART-explore-139-1
+    meta:
+      chartId: 139
+      height: 50
+      sliceName: Home prices vs. rates
+      uuid: 0ebfa980-484c-45cf-ac7e-d00811d03cc5
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-wU9MPI6eP
+    - ROW-MTbv9h0x2
+    type: CHART
+  CHART-explore-140-1:
+    children: []
+    id: CHART-explore-140-1
+    meta:
+      chartId: 140
+      height: 50
+      sliceName: Prices and changes
+      uuid: 96a26e6a-8035-4d32-8fcd-6610a7a253b0
+      width: 8
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-Z3m7oNzJo
+    type: CHART
+  CHART-explore-141-1:
+    children: []
+    id: CHART-explore-141-1
+    meta:
+      chartId: 141
+      height: 50
+      sliceName: VIXX
+      uuid: 12244fc6-919a-4666-bc60-af2bc7fe3c78
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-X5IKg0PoLF
+    type: CHART
+  CHART-explore-144-1:
+    children: []
+    id: CHART-explore-144-1
+    meta:
+      chartId: 144
+      height: 50
+      sliceName: FRED data update age (minutes)
+      uuid: 05b1a239-cd41-42c9-9397-2e338f6a3d94
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-f1CHsYsrR
+    - ROW-tdLkMPa3T
+    type: CHART
+  CHART-explore-145-1:
+    children: []
+    id: CHART-explore-145-1
+    meta:
+      chartId: 145
+      height: 50
+      sliceName: Yahoo daily data update age (minutes)
+      uuid: 67fd44ef-701d-480c-800b-f29b64f9a207
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-f1CHsYsrR
+    - ROW-tdLkMPa3T
+    type: CHART
+  CHART-explore-146-1:
+    children: []
+    id: CHART-explore-146-1
+    meta:
+      chartId: 146
+      height: 50
+      sliceName: Yahoo intraday data update age (minutes)
+      uuid: 28627c9c-4c0d-4105-b3f3-9f7374608e73
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-f1CHsYsrR
+    - ROW-tdLkMPa3T
+    type: CHART
+  CHART-explore-147-1:
+    children: []
+    id: CHART-explore-147-1
+    meta:
+      chartId: 147
+      height: 50
+      sliceName: Inflation CPI & PCE (monthly annualized)
+      uuid: 5bdf1c82-b0f7-4815-a058-8f6e1af642ca
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    - ROW-37pTdTYRM
+    type: CHART
+  CHART-explore-148-1:
+    children: []
+    id: CHART-explore-148-1
+    meta:
+      chartId: 148
+      height: 50
+      sliceName: 5y, 10y Treasury yield (1 month, Yahoo)
+      uuid: 15f147b3-b902-4c47-8eb1-173f953a9369
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    - ROW-RLyNHWFCn
+    type: CHART
+  CHART-explore-80-1:
+    children: []
+    id: CHART-explore-80-1
+    meta:
+      chartId: 80
+      height: 50
+      sliceName: GDP (Nominal, Real)
+      uuid: e0206dbc-d79c-442e-bafb-6e6319cc1417
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-nwVAwD1ad
+    type: CHART
+  CHART-explore-81-1:
+    children: []
+    id: CHART-explore-81-1
+    meta:
+      chartId: 81
+      height: 50
+      sliceName: Case-Shiller Home Price Index
+      uuid: 722e9878-a7ae-47de-8813-08aaf072c023
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-wU9MPI6eP
+    - ROW-qxxKIVC_i
+    type: CHART
+  CHART-explore-82-1:
+    children: []
+    id: CHART-explore-82-1
+    meta:
+      chartId: 82
+      height: 169
+      sliceName: FRED Series
+      uuid: bfd16f4d-5507-49f1-a20c-94dacb18c72b
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-g_O6WLiWO
+    - ROW-J4nYUsYkb
+    type: CHART
+  CHART-explore-83-1:
+    children: []
+    id: CHART-explore-83-1
+    meta:
+      chartId: 83
+      height: 50
+      sliceName: Inflation CPI & PCE
+      uuid: fc094d04-806e-47e8-8278-4bb29edc88be
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    - ROW-37pTdTYRM
+    type: CHART
+  CHART-explore-84-1:
+    children: []
+    id: CHART-explore-84-1
+    meta:
+      chartId: 84
+      height: 50
+      sliceName: Case-Shiller Home Price Index (Monthly Ch)
+      uuid: c9d1ee61-d4a9-4db2-8aca-79b213d51e68
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-wU9MPI6eP
+    - ROW-qxxKIVC_i
+    type: CHART
+  CHART-explore-85-1:
+    children: []
+    id: CHART-explore-85-1
+    meta:
+      chartId: 85
+      height: 50
+      sliceName: Treasuries (2y, 10y)
+      uuid: b06af569-010a-4db0-a8dc-d80a4feaae46
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    - ROW-RLyNHWFCn
+    type: CHART
+  CHART-explore-86-1:
+    children: []
+    id: CHART-explore-86-1
+    meta:
+      chartId: 86
+      height: 50
+      sliceName: Fed Funds Rate
+      uuid: 04551650-8610-4c90-8d99-6e99cb0fc443
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    - ROW-RLyNHWFCn
+    type: CHART
+  CHART-explore-87-1:
+    children: []
+    id: CHART-explore-87-1
+    meta:
+      chartId: 87
+      height: 50
+      sliceName: Mortgage rates
+      uuid: 9e7af9fe-51af-427c-affd-9749127b8f81
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-wU9MPI6eP
+    - ROW-qxxKIVC_i
+    type: CHART
+  CHART-explore-89-1:
+    children: []
+    id: CHART-explore-89-1
+    meta:
+      chartId: 89
+      height: 50
+      sliceName: Crude Oil (FRED)
+      uuid: 90edab22-f1c2-4198-8566-d842a8bfc601
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    - ROW-sWaN5D1bN
+    type: CHART
+  CHART-explore-90-1:
+    children: []
+    id: CHART-explore-90-1
+    meta:
+      chartId: 90
+      height: 50
+      sliceName: High Yield Option-Adjusted Spread
+      uuid: 596d4a9a-bbfc-4ec4-960b-8cd2ff090bff
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    - ROW-gk_wda1mu
+    type: CHART
+  CHART-explore-91-1:
+    children: []
+    id: CHART-explore-91-1
+    meta:
+      chartId: 91
+      height: 50
+      sliceName: High Yield Index Effective Yield
+      uuid: ed84f00c-dc77-4b8b-95b0-bcef569c391b
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    - ROW-gk_wda1mu
+    type: CHART
+  CHART-explore-92-1:
+    children: []
+    id: CHART-explore-92-1
+    meta:
+      chartId: 92
+      height: 50
+      sliceName: Gas Price (Regular Conventional)
+      uuid: 1e875278-a2b3-4f7e-8fc9-cf60f472acd9
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    - ROW-9LTd_UGy5
+    type: CHART
+  CHART-explore-93-1:
+    children: []
+    id: CHART-explore-93-1
+    meta:
+      chartId: 93
+      height: 69
+      sliceName: Recent releases
+      uuid: f7c48f17-d524-404b-9c89-59bdbf64f829
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-N8cJQTmhe
+    - ROW-W3I-cDgdeX
+    type: CHART
+  CHART-explore-97-1:
+    children: []
+    id: CHART-explore-97-1
+    meta:
+      chartId: 97
+      height: 50
+      sliceName: Retail sales by component
+      uuid: d53e8c90-ec27-4ad6-8174-4db5fab98e92
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    - ROW-Lg-3H0tYK
+    type: CHART
+  CHART-explore-98-1:
+    children: []
+    id: CHART-explore-98-1
+    meta:
+      chartId: 98
+      height: 50
+      sliceName: CPI Europe
+      uuid: 4ad02b50-656d-4561-be99-3b8b78562b7a
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    - ROW-37pTdTYRM
+    type: CHART
+  CHART-explore-99-1:
+    children: []
+    id: CHART-explore-99-1
+    meta:
+      chartId: 99
+      height: 50
+      sliceName: Growth Stocks 1y pct change
+      sliceNameOverride: Growth Stocks 1y pct change
+      uuid: 2470f514-a628-47f3-b30b-123ac8234e08
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    - ROW-LpRqy8kLER
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - TABS-_ihlL6Hqc8
+    - ROW-N-JENOH4OP
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER-02JPwl4vkQ:
+    children: []
+    id: HEADER-02JPwl4vkQ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      headerSize: MEDIUM_HEADER
+      text: Daily
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    type: HEADER
+  HEADER-vMLviNHZHE:
+    children: []
+    id: HEADER-vMLviNHZHE
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      headerSize: MEDIUM_HEADER
+      text: Longer Term
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    type: HEADER
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Markets and Economy
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-37pTdTYRM:
+    children:
+    - CHART-explore-83-1
+    - CHART-explore-147-1
+    - CHART-explore-98-1
+    id: ROW-37pTdTYRM
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    type: ROW
+  ROW-9LTd_UGy5:
+    children:
+    - CHART-explore-92-1
+    - CHART-explore-113-1
+    - CHART-explore-123-1
+    id: ROW-9LTd_UGy5
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    type: ROW
+  ROW-AubJzOyKJ:
+    children:
+    - CHART-explore-100-1
+    - CHART-explore-102-1
+    id: ROW-AubJzOyKJ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    type: ROW
+  ROW-DJOPunSBs:
+    children:
+    - CHART-explore-125-1
+    - CHART-explore-128-1
+    id: ROW-DJOPunSBs
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    type: ROW
+  ROW-F94hiTgHaG:
+    children:
+    - CHART-explore-131-1
+    - CHART-explore-133-1
+    - CHART-explore-134-1
+    id: ROW-F94hiTgHaG
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    type: ROW
+  ROW-H_cmY_ZWI:
+    children:
+    - CHART-explore-101-1
+    - CHART-explore-107-1
+    - CHART-explore-103-1
+    id: ROW-H_cmY_ZWI
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    type: ROW
+  ROW-J4nYUsYkb:
+    children:
+    - CHART-explore-82-1
+    id: ROW-J4nYUsYkb
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-g_O6WLiWO
+    type: ROW
+  ROW-Lg-3H0tYK:
+    children:
+    - CHART-explore-97-1
+    - CHART-explore-110-1
+    - CHART-explore-121-1
+    id: ROW-Lg-3H0tYK
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    type: ROW
+  ROW-LpRqy8kLER:
+    children:
+    - CHART-explore-109-1
+    - CHART-explore-99-1
+    - CHART-explore-108-1
+    id: ROW-LpRqy8kLER
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    type: ROW
+  ROW-MTbv9h0x2:
+    children:
+    - CHART-explore-139-1
+    - CHART-explore-129-1
+    - CHART-explore-135-1
+    id: ROW-MTbv9h0x2
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-wU9MPI6eP
+    type: ROW
+  ROW-NYkc_xjHZ:
+    children:
+    - CHART-explore-114-1
+    - CHART-explore-117-1
+    - CHART-explore-116-1
+    id: ROW-NYkc_xjHZ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    type: ROW
+  ROW-RLyNHWFCn:
+    children:
+    - CHART-explore-148-1
+    - CHART-explore-86-1
+    - CHART-explore-85-1
+    id: ROW-RLyNHWFCn
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    type: ROW
+  ROW-SPxxhNDdsb:
+    children:
+    - CHART-explore-119-1
+    - CHART-explore-122-1
+    - CHART-explore-124-1
+    id: ROW-SPxxhNDdsb
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    type: ROW
+  ROW-W3I-cDgdeX:
+    children:
+    - CHART-explore-93-1
+    id: ROW-W3I-cDgdeX
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-N8cJQTmhe
+    type: ROW
+  ROW-X5IKg0PoLF:
+    children:
+    - CHART-explore-138-1
+    - CHART-explore-141-1
+    id: ROW-X5IKg0PoLF
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    type: ROW
+  ROW-Z3m7oNzJo:
+    children:
+    - CHART-explore-140-1
+    - CHART-explore-104-1
+    id: ROW-Z3m7oNzJo
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-i8EEy7e5v
+    type: ROW
+  ROW-gk_wda1mu:
+    children:
+    - CHART-explore-91-1
+    - CHART-explore-90-1
+    id: ROW-gk_wda1mu
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    type: ROW
+  ROW-hGLljxbBE:
+    children:
+    - CHART-explore-112-1
+    - CHART-VuRpzyKOpI
+    id: ROW-hGLljxbBE
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-uNcEs4FLS
+    type: ROW
+  ROW-jvHgNeIoO9:
+    children:
+    - CHART-explore-118-1
+    - CHART-explore-120-1
+    - CHART-explore-132-1
+    id: ROW-jvHgNeIoO9
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    type: ROW
+  ROW-nwVAwD1ad:
+    children:
+    - CHART-explore-80-1
+    - CHART-explore-111-1
+    - CHART-explore-115-1
+    id: ROW-nwVAwD1ad
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-dU1a7ry4oD
+    type: ROW
+  ROW-o_CNz827s:
+    children:
+    - CHART-explore-136-1
+    - CHART-explore-126-1
+    - CHART-explore-127-1
+    id: ROW-o_CNz827s
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-9bhmOKrXT
+    type: ROW
+  ROW-qxxKIVC_i:
+    children:
+    - CHART-explore-87-1
+    - CHART-explore-81-1
+    - CHART-explore-84-1
+    id: ROW-qxxKIVC_i
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-wU9MPI6eP
+    type: ROW
+  ROW-sWaN5D1bN:
+    children:
+    - CHART-explore-105-1
+    - CHART-explore-106-1
+    - CHART-explore-89-1
+    id: ROW-sWaN5D1bN
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-st2ALzNnQ
+    type: ROW
+  ROW-tdLkMPa3T:
+    children:
+    - CHART-explore-145-1
+    - CHART-explore-146-1
+    - CHART-explore-144-1
+    id: ROW-tdLkMPa3T
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    - TAB-f1CHsYsrR
+    type: ROW
+  TAB-3ab6qQJME:
+    children: []
+    id: TAB-3ab6qQJME
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Labor
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TAB-9bhmOKrXT:
+    children:
+    - ROW-37pTdTYRM
+    - ROW-o_CNz827s
+    - ROW-DJOPunSBs
+    id: TAB-9bhmOKrXT
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Inflation
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TAB-N8cJQTmhe:
+    children:
+    - ROW-W3I-cDgdeX
+    id: TAB-N8cJQTmhe
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Releases
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TAB-dU1a7ry4oD:
+    children:
+    - ROW-nwVAwD1ad
+    - ROW-Lg-3H0tYK
+    - ROW-NYkc_xjHZ
+    - ROW-F94hiTgHaG
+    - ROW-jvHgNeIoO9
+    id: TAB-dU1a7ry4oD
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Economics
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TAB-f1CHsYsrR:
+    children:
+    - ROW-tdLkMPa3T
+    id: TAB-f1CHsYsrR
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Data updates
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TAB-g_O6WLiWO:
+    children:
+    - ROW-J4nYUsYkb
+    id: TAB-g_O6WLiWO
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: FRED Series
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TAB-i8EEy7e5v:
+    children:
+    - HEADER-02JPwl4vkQ
+    - ROW-Z3m7oNzJo
+    - ROW-H_cmY_ZWI
+    - HEADER-vMLviNHZHE
+    - ROW-LpRqy8kLER
+    - ROW-AubJzOyKJ
+    - ROW-X5IKg0PoLF
+    id: TAB-i8EEy7e5v
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Markets
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TAB-st2ALzNnQ:
+    children:
+    - ROW-sWaN5D1bN
+    - ROW-9LTd_UGy5
+    - ROW-SPxxhNDdsb
+    id: TAB-st2ALzNnQ
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Commodites
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TAB-uNcEs4FLS:
+    children:
+    - ROW-RLyNHWFCn
+    - ROW-hGLljxbBE
+    - ROW-gk_wda1mu
+    id: TAB-uNcEs4FLS
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Fixed Income & Rates
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TAB-wU9MPI6eP:
+    children:
+    - ROW-qxxKIVC_i
+    - ROW-MTbv9h0x2
+    id: TAB-wU9MPI6eP
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Housing
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-_ihlL6Hqc8
+    type: TAB
+  TABS-_ihlL6Hqc8:
+    children:
+    - TAB-i8EEy7e5v
+    - TAB-uNcEs4FLS
+    - TAB-st2ALzNnQ
+    - TAB-dU1a7ry4oD
+    - TAB-9bhmOKrXT
+    - TAB-wU9MPI6eP
+    - TAB-3ab6qQJME
+    - TAB-g_O6WLiWO
+    - TAB-N8cJQTmhe
+    - TAB-f1CHsYsrR
+    id: TABS-_ihlL6Hqc8
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: TABS
+  ROW-N-JENOH4OP:
+    children:
+    - CHART-FY7LXY03
+    id: ROW-N-JENOH4OP
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-FY7LXY03:
+    children: []
+    id: CHART-FY7LXY03
+    meta:
+      chartId: 149
+      height: 50
+      sliceName: Scratch
+      uuid: a5e86aa6-92c8-48e2-9667-adc5e89dcd10
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-JENOH4OP
+metadata:
+  show_native_filters: false
+  chart_configuration:
+    '80':
+      id: 80
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 80
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '81':
+      id: 81
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 81
+        chartsInScope:
+        - 80
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '82':
+      id: 82
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 82
+        chartsInScope:
+        - 80
+        - 81
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '83':
+      id: 83
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 83
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '84':
+      id: 84
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 84
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '85':
+      id: 85
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 85
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '86':
+      id: 86
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 86
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '87':
+      id: 87
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 87
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '88':
+      id: 88
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 88
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '89':
+      id: 89
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 89
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '90':
+      id: 90
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 90
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '91':
+      id: 91
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 91
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '92':
+      id: 92
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 92
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '93':
+      id: 93
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 93
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '97':
+      id: 97
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 97
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '98':
+      id: 98
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 98
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '99':
+      id: 99
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 99
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 96
+        - 97
+        - 98
+    '100':
+      id: 100
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 100
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '101':
+      id: 101
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 101
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '102':
+      id: 102
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 102
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '103':
+      id: 103
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 103
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '104':
+      id: 104
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 104
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '105':
+      id: 105
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 105
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '106':
+      id: 106
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 106
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '107':
+      id: 107
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 107
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '110':
+      id: 110
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 110
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '111':
+      id: 111
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 111
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '112':
+      id: 112
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 112
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '113':
+      id: 113
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 113
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '114':
+      id: 114
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 114
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '115':
+      id: 115
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 115
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '116':
+      id: 116
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 116
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '117':
+      id: 117
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 117
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '118':
+      id: 118
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 118
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '119':
+      id: 119
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 119
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '120':
+      id: 120
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 120
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '121':
+      id: 121
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 121
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '122':
+      id: 122
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 122
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '123':
+      id: 123
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 123
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '124':
+      id: 124
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 124
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '125':
+      id: 125
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 125
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '126':
+      id: 126
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 126
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '127':
+      id: 127
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 127
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '128':
+      id: 128
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 128
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '129':
+      id: 129
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 129
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '131':
+      id: 131
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 131
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '132':
+      id: 132
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 132
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '133':
+      id: 133
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 133
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '134':
+      id: 134
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 134
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '135':
+      id: 135
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 135
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '136':
+      id: 136
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 136
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '138':
+      id: 138
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 138
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '139':
+      id: 139
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 139
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '140':
+      id: 140
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 140
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '141':
+      id: 141
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 141
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 144
+        - 145
+        - 146
+        - 147
+        - 148
+    '147':
+      id: 147
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 147
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 148
+    '148':
+      id: 148
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 148
+        chartsInScope:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+        - 138
+        - 139
+        - 140
+        - 141
+        - 144
+        - 145
+        - 146
+        - 147
+  color_scheme: ''
+  refresh_frequency: 300
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  default_filters: '{}'
+  shared_label_colors:
+    NASDAQ 100 Technology Sector Index: '#1FA8C9'
+    NASDAQ Composite Index: '#454E7C'
+    S&P 500 Index: '#5AC189'
+    PTON: '#1FA8C9'
+    ^GSPC: '#454E7C'
+    AAPL: '#1FA8C9'
+    AMZN: '#454E7C'
+    GOOG: '#5AC189'
+    META: '#FF7F44'
+    NFLX: '#666666'
+    AFRM: '#1FA8C9'
+    HOOD: '#454E7C'
+    SNOW: '#FF7F44'
+    TSLA: '#666666'
+    ^VIX: '#1FA8C9'
+    '((1 + AVG(pct_ch_1period)) ^ 12) - 1, Consumer Price Index for All Urban Consumers: All Items in U.S. City Average': '#1FA8C9'
+    'avg_pct_ch_12period, Consumer Price Index for All Urban Consumers: All Items in U.S. City Average': '#454E7C'
+    COUNT(*): '#1FA8C9'
+    COUNT_DISTINCT(symbol_id): '#1FA8C9'
+    ? 'percentage__AVG(value)__AVG(value)__1 year ago, Consumer Price Index for All
+      Urban Consumers: All Items in U.S. City Average'
+    : '#1FA8C9'
+  color_scheme_domain: []
+version: 1.0.0

@@ -1,0 +1,62 @@
+slice_name: Average Hourly Earnings
+viz_type: echarts_timeseries_line
+params:
+  datasource: 25__table
+  viz_type: echarts_timeseries_line
+  slice_id: 114
+  granularity_sqla: date
+  time_grain_sqla: P1D
+  time_range: 'DATEADD(DATETIME("now"), -10, year) : now'
+  metrics:
+  - avg
+  groupby:
+  - title
+  adhoc_filters:
+  - clause: WHERE
+    comparator: '%Average Hourly Earnings%'
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_8gzswmnq0di_i7bual8oxes
+    isExtra: false
+    isNew: false
+    operator: LIKE
+    operatorId: LIKE
+    sqlExpression: null
+    subject: title
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  rolling_type: null
+  time_compare:
+  - 1 year ago
+  comparison_type: percentage
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: ',.1%'
+  minorSplitLine: true
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: d8a3b713-aa69-4d81-b4d3-ec831d4228ca
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

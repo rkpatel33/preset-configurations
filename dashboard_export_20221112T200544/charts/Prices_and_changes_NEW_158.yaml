@@ -1,0 +1,120 @@
+slice_name: Prices and changes (NEW)
+viz_type: table
+params:
+  datasource: 37__table
+  viz_type: table
+  slice_id: 158
+  granularity_sqla: date
+  time_grain_sqla: P1D
+  time_range: No filter
+  query_mode: aggregate
+  groupby:
+  - name
+  - type
+  metrics:
+  - avg_close
+  - avg_pct_ch_1d
+  - avg_pct_ch_5d
+  - avg_pct_ch_ytd
+  - aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: true
+    isNew: false
+    label: Decline from high
+    optionName: metric_9kwboer0zz8_p5771crpn2
+    sqlExpression: (AVG(close) / AVG(close_high)) - 1
+  - aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: true
+    isNew: false
+    label: High
+    optionName: metric_i7u8sakyxb_5yrdr704x4
+    sqlExpression: AVG(close_high)
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - ^VIX
+    - ^NDXX
+    - ^NDXT
+    - ^IXIC
+    - HOOD
+    - PTON
+    - TSLA
+    - AAPL
+    - ^GSPC
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_lkfh1c7dzqf_e0cacdnb0ec
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: symbol
+  order_by_cols: []
+  row_limit: 1000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: false
+  color_pn: true
+  column_config:
+    Decline from high:
+      d3NumberFormat: .2%
+    High:
+      d3NumberFormat: ',.2f'
+    avg_close:
+      d3NumberFormat: ',.2f'
+      showCellBars: false
+    avg_pct_ch_1d:
+      d3NumberFormat: .2%
+    avg_pct_ch_5d:
+      d3NumberFormat: .2%
+    avg_pct_ch_ytd:
+      d3NumberFormat: .2%
+  conditional_formatting:
+  - colorScheme: '#ACE1C4'
+    column: avg_pct_ch_1d
+    operator: '>'
+    targetValue: 0
+  - colorScheme: '#ACE1C4'
+    column: avg_pct_ch_5d
+    operator: '>'
+    targetValue: 0
+  - colorScheme: '#ACE1C4'
+    column: avg_pct_ch_ytd
+    operator: '>'
+    targetValue: 0
+  - colorScheme: '#ACE1C4'
+    column: Decline from high
+    operator: '>'
+    targetValue: 0
+  - colorScheme: '#EFA1AA'
+    column: avg_pct_ch_1d
+    operator: <
+    targetValue: 0
+  - colorScheme: '#EFA1AA'
+    column: avg_pct_ch_5d
+    operator: <
+    targetValue: 0
+  - colorScheme: '#EFA1AA'
+    column: avg_pct_ch_ytd
+    operator: <
+    targetValue: 0
+  - colorScheme: '#EFA1AA'
+    column: Decline from high
+    operator: <
+    targetValue: 0
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 9fd0a935-142a-4d66-b2a6-2cc49e8edd60
+version: 1.0.0
+dataset_uuid: be3d6802-4bff-4b90-99c2-a91da4c407ee

@@ -1,0 +1,62 @@
+slice_name: Median home price
+viz_type: echarts_timeseries_line
+params:
+  datasource: 25__table
+  viz_type: echarts_timeseries_line
+  slice_id: 135
+  granularity_sqla: date
+  time_grain_sqla: P1D
+  time_range: 'DATEADD(DATETIME("now"), -20, year) : now'
+  metrics:
+  - avg
+  groupby:
+  - title
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - MSPNHSUS
+    - HOSMEDUSM052N
+    - HSFMEDUSM052N
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_12ezgsuu62u_o3iedx20ez
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: series_id
+  timeseries_limit_metric: []
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: $,0f
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 03a667fe-4e00-4487-ab12-85ea88871682
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

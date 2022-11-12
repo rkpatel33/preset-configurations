@@ -1,0 +1,64 @@
+slice_name: FANGS 1d (NEW)
+viz_type: echarts_timeseries_line
+params:
+  datasource: 36__table
+  viz_type: echarts_timeseries_line
+  slice_id: 156
+  granularity_sqla:
+  - datetime
+  time_grain_sqla: PT1M
+  time_range: No filter
+  metrics:
+  - pct_change_1d_ago
+  groupby:
+  - name
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: symbol
+    operator: IN
+    operatorId: IN
+    comparator:
+    - AAPL
+    - META
+    - GOOG
+    - NFLX
+    - AMZN
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_o3mki0j3xs_dv44onwjctc
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: SMART_NUMBER
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 8a08c8f7-9d2c-4826-9159-509fc16964a0
+version: 1.0.0
+dataset_uuid: d0774761-a641-442a-acd9-55aff9c7a644

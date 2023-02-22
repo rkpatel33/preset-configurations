@@ -1,0 +1,38 @@
+
+/* Grand total at the botom row */
+table.pvtTable .pvtTotalLabel.pvtRowTotalLabel {
+  background-color: #f0ecec !important;
+  border-top: 1px solid black !important;
+}
+table.pvtTable tbody tr td.pvtRowTotal {
+  background-color: #f0ecec !important;
+  border-top: 1px solid black !important;
+}
+
+table.pvtTable .pvtRowLabel.pvtSubtotalLabel {
+  background-color: #f0ecec !important;
+  border-top: 1px solid black !important;
+}
+
+.pvtTotal,
+.pvtGrandTotal {
+  background-color: #f0ecec !important;
+}
+
+table.pvtTable tbody tr td.pvtRowTotal {
+  background-color: #f0ecec !important;
+  border-top: 1px solid black !important;
+}
+
+/* Sibling of pvtSubtotalLabel */
+table.pvtTable .pvtRowLabel.pvtSubtotalLabel ~ .pvtVal {
+  background-color: #f0ecec !important;
+  border-top: 1px solid black !important;
+}
+
+table.pvtTable .pvtRowLabel.pvtSubtotalLabel ~ .pvtTotal {
+  background-color: #f0ecec !important;
+  border-top: 1px solid black !important;
+}
+
+

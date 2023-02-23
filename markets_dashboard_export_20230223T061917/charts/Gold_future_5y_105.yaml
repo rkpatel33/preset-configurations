@@ -1,0 +1,61 @@
+slice_name: Gold future 5y
+viz_type: echarts_timeseries_line
+params:
+  datasource: 34__table
+  viz_type: echarts_timeseries_line
+  slice_id: 105
+  granularity_sqla: date
+  time_grain_sqla: PT1M
+  time_range: 'DATEADD(DATETIME("now"), -5, year) : DATETIME("tomorrow")'
+  metrics:
+  - avg_close
+  groupby:
+  - name
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - GC=F
+    - MGC=F
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_xbidpu4v86j_9nila4vnrt5
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: symbol
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: $,.2f
+  truncateYAxis: true
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: a2ca6513-096f-4057-9a50-e4c849b8ab2d
+version: 1.0.0
+dataset_uuid: f6feb2d7-9625-496f-bdd5-e84d7ac029ce

@@ -1,0 +1,50 @@
+slice_name: Transaction counts by source (debugging)
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 38__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 182
+  granularity_sqla: Month
+  time_grain_sqla: P1M
+  time_range: 'DATEADD(DATETIME("now"), -24, month) : now'
+  metrics:
+  - count
+  groupby:
+  - Source
+  adhoc_filters: []
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  show_value: true
+  stack: true
+  only_total: true
+  percentage_threshold: 0
+  zoomable: true
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  y_axis_format: ',d'
+  minorSplitLine: true
+  y_axis_bounds:
+  - null
+  - null
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 9
+cache_timeout: null
+uuid: 01916614-6013-4ae6-b744-e6ac46fb7cfe
+version: 1.0.0
+dataset_uuid: df629788-24f3-4f8d-9d05-2b1a32da369a

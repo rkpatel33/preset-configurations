@@ -1,0 +1,76 @@
+slice_name: Yahoo intraday data update age (updated_at)
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 32__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 146
+  granularity_sqla: updated_at
+  time_grain_sqla: PT1H
+  time_range: 'DATEADD(DATETIME("now"), -1, day) : DATEADD(DATETIME("now"), 1, day)'
+  metrics:
+  - aggregate: COUNT_DISTINCT
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: symbol_id
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 855
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: VARCHAR(30)
+      type_generic: 1
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: COUNT_DISTINCT(symbol_id)
+    optionName: metric_dqphqo9kl8e_dt1llc6ijjo
+    sqlExpression: null
+  groupby: []
+  adhoc_filters: []
+  timeseries_limit_metric: []
+  order_desc: true
+  row_limit: 1000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  x_axis_title: ''
+  x_axis_title_margin: 15
+  y_axis_title: ''
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  stack: true
+  only_total: true
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  xAxisLabelRotation: 0
+  y_axis_format: SMART_NUMBER
+  logAxis: false
+  minorSplitLine: false
+  truncateYAxis: false
+  y_axis_bounds:
+  - null
+  - null
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 28627c9c-4c0d-4105-b3f3-9f7374608e73
+version: 1.0.0
+dataset_uuid: 80d9b80d-1b5c-4dcf-9d33-009e046abe9d

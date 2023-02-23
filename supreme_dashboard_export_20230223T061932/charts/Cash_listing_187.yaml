@@ -1,0 +1,52 @@
+slice_name: Cash listing
+viz_type: pivot_table_v2
+params:
+  datasource: 39__table
+  viz_type: pivot_table_v2
+  slice_id: 187
+  granularity_sqla: Date
+  time_grain_sqla: P1D
+  time_range: '18 months ago : '
+  groupbyColumns:
+  - Date
+  groupbyRows:
+  - Name
+  metrics:
+  - sum_value
+  metricsLayout: COLUMNS
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - Liquid-Cash
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_wxpz25kcnhr_klsz0y4pdz
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: Liquidity
+  row_limit: 10000
+  series_limit_metric: sum_value
+  order_desc: false
+  aggregateFunction: Sum
+  colTotals: true
+  transposePivot: false
+  combineMetric: false
+  valueFormat: $,f
+  date_format: smart_date
+  rowOrder: key_a_to_z
+  colOrder: key_a_to_z
+  conditional_formatting:
+  - column: sum_value
+    colorScheme: '#ACE1C4'
+    operator: '>'
+    targetValue: 0
+  extra_form_data: {}
+  dashboards:
+  - 9
+cache_timeout: null
+uuid: 958b4c96-6356-4e7a-811a-3eb1f57885f2
+version: 1.0.0
+dataset_uuid: 63522e2d-b7ae-493a-8954-5feab69ca05b

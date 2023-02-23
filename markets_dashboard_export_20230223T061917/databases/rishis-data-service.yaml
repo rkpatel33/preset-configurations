@@ -1,0 +1,15 @@
+database_name: rishis-data-service
+sqlalchemy_uri: postgresql+psycopg2://uah59u4j0pk55h:XXXXXXXXXX@ec2-3-85-68-150.compute-1.amazonaws.com:5432/d61gfn9e4ivqal?sslmode=require
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_file_upload: false
+extra:
+  metadata_params: {}
+  engine_params: {}
+  metadata_cache_timeout: {}
+  schemas_allowed_for_file_upload: []
+uuid: 4200c1e3-a79e-4481-8513-2176a2182dfe
+version: 1.0.0

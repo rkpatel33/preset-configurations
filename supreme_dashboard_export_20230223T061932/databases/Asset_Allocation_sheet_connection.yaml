@@ -1,0 +1,15 @@
+database_name: Asset Allocation sheet connection
+sqlalchemy_uri: gsheets://
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_file_upload: false
+extra:
+  allows_virtual_table_explore: true
+  engine_params:
+    catalog:
+      AssetHistory: https://docs.google.com/spreadsheets/d/1xSFBeowLzXVy1R7d2EqYdncmPuCTiz8UQD9dc8YC49g/edit#gid=1390959358
+uuid: aee5196f-b6d7-4cdf-801e-570faa267130
+version: 1.0.0

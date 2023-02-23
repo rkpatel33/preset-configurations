@@ -1,0 +1,65 @@
+slice_name: Vacancy rates
+viz_type: echarts_timeseries_line
+params:
+  datasource: 25__table
+  viz_type: echarts_timeseries_line
+  slice_id: 129
+  granularity_sqla: date
+  time_grain_sqla: P1D
+  time_range: 'DATEADD(DATETIME("now"), -30, year) : now'
+  metrics:
+  - avg
+  groupby:
+  - title
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: series_id
+    operator: IN
+    operatorId: IN
+    comparator:
+    - RHVRUSQ156N
+    - RRVRUSQ156N
+    - RRVRWEQ156N
+    - RRVRNEQ156N
+    - RRVRSOQ156N
+    - RRVRMWQ156N
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_12ezgsuu62u_o3iedx20ez
+  timeseries_limit_metric: []
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: ',.1f'
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 74a739d9-43f6-4b91-ab40-98c377f20ff1
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

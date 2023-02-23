@@ -1,0 +1,61 @@
+slice_name: High Yield Option-Adjusted Spread
+viz_type: echarts_timeseries_line
+params:
+  datasource: 25__table
+  viz_type: echarts_timeseries_line
+  slice_id: 90
+  granularity_sqla: date
+  time_grain_sqla: P1W
+  time_range: 'DATEADD(DATETIME("now"), -10, year) : now'
+  metrics:
+  - avg
+  groupby:
+  - title
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: title
+    operator: LIKE
+    operatorId: LIKE
+    comparator: '%High Yield Index Option-Adjusted Spread%'
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    filterOptionName: filter_90yhot0dkyj_h58qiln7wo6
+  timeseries_limit_metric: []
+  order_desc: true
+  row_limit: 5000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  show_value: false
+  only_total: true
+  area: false
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: ',.1f'
+  minorSplitLine: true
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 596d4a9a-bbfc-4ec4-960b-8cd2ff090bff
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

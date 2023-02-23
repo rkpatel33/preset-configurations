@@ -1,0 +1,15 @@
+database_name: Income Statement sheet connection
+sqlalchemy_uri: gsheets://
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_file_upload: false
+extra:
+  allows_virtual_table_explore: true
+  engine_params:
+    catalog:
+      Transactions: https://docs.google.com/spreadsheets/d/1tDo1w9D-TYR2AtrVThno4TppV08G2EbFu5IdNXQjsM4/edit#gid=1762328830
+uuid: 104112e6-02ae-49ee-8e31-f788a5ae91cf
+version: 1.0.0

@@ -1,0 +1,103 @@
+slice_name: GMO Climate Change Fund Class III (GCCHX)
+description: null
+certified_by: null
+certification_details: null
+viz_type: mixed_timeseries
+params:
+  datasource: 34__table
+  viz_type: mixed_timeseries
+  slice_id: 223
+  x_axis: date
+  time_grain_sqla: PT1M
+  metrics:
+  - avg_close
+  groupby:
+  - symbol
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: symbol
+    operator: ==
+    operatorId: EQUALS
+    comparator: GCCHX
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_xbidpu4v86j_9nila4vnrt5
+  - expressionType: SIMPLE
+    subject: date
+    operator: TEMPORAL_RANGE
+    comparator: 'DATETIME("2 year ago" ) : DATETIME("tomorrow")'
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_gtl0sedl8_dpgz3eeif9
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  comparison_type: values
+  metrics_b:
+  - avg_close
+  groupby_b: []
+  adhoc_filters_b:
+  - clause: WHERE
+    comparator: 'DATETIME("2 year ago" ) : DATETIME("tomorrow")'
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_7yfj6l7vhy_mnevkzp1e48
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date
+  - clause: WHERE
+    comparator:
+    - ^GSPC
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_v1cnxmfx7zr_khzrhju7f4
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: symbol
+  order_desc_b: true
+  row_limit_b: 10000
+  truncate_metric_b: true
+  comparison_type_b: values
+  annotation_layers: []
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  opacity: 0.2
+  markerSize: 6
+  seriesTypeB: line
+  opacityB: 0.2
+  markerSizeB: 6
+  yAxisIndexB: 1
+  zoomable: true
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  truncateYAxis: true
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: $,.2f
+  y_axis_format_secondary: SMART_NUMBER
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 4ab67f13-ba20-44dd-b420-ac3f434c3a96
+version: 1.0.0
+dataset_uuid: f6feb2d7-9625-496f-bdd5-e84d7ac029ce

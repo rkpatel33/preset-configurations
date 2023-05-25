@@ -1,0 +1,40 @@
+slice_name: FRED data update age (minutes)
+description: null
+certified_by: null
+certification_details: null
+viz_type: dist_bar
+params:
+  datasource: 21__table
+  viz_type: dist_bar
+  slice_id: 144
+  granularity_sqla:
+  - updated_at
+  time_range: No filter
+  metrics:
+  - count
+  adhoc_filters: []
+  groupby:
+  - label: updated_at
+    sqlExpression: "ROUND(\n  EXTRACT(EPOCH FROM (updated_at - NOW())) / 60\n  , 1\n\
+      )"
+    expressionType: SQL
+  columns: []
+  row_limit: 1000
+  order_desc: true
+  color_scheme: supersetColors
+  show_legend: true
+  show_bar_value: false
+  rich_tooltip: true
+  y_axis_format: SMART_NUMBER
+  y_axis_bounds:
+  - null
+  - null
+  bottom_margin: auto
+  x_ticks_layout: flat
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 05b1a239-cd41-42c9-9397-2e338f6a3d94
+version: 1.0.0
+dataset_uuid: a437f7e8-72f8-4a21-81e2-b2637b46b7c6

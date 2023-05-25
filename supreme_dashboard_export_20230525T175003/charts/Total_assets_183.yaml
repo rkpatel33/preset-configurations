@@ -1,0 +1,61 @@
+slice_name: Total assets
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - GRAND TOTAL
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_pa3pqecyahh_bg9ofz550su
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: Name
+  annotation_layers: []
+  color_scheme: supersetColors
+  comparison_type: values
+  dashboards:
+  - 9
+  datasource: 39__table
+  extra_form_data: {}
+  forecastInterval: 0.8
+  forecastPeriods: 10
+  granularity_sqla: Date
+  groupby: []
+  legendOrientation: top
+  legendType: scroll
+  metrics:
+  - sum_value
+  only_total: true
+  order_desc: true
+  orientation: vertical
+  rich_tooltip: true
+  row_limit: 10000
+  show_empty_columns: true
+  show_legend: true
+  show_value: true
+  slice_id: 183
+  stack: Stack
+  time_grain_sqla: P1W
+  time_range: No filter
+  tooltipTimeFormat: smart_date
+  truncate_metric: true
+  viz_type: echarts_timeseries_bar
+  x_axis_time_format: smart_date
+  x_axis_title_margin: 15
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: $,.3s
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+cache_timeout: null
+uuid: 1e7dc2a4-8819-467a-8b1e-89a1e2e2eacd
+version: 1.0.0
+dataset_uuid: 63522e2d-b7ae-493a-8954-5feab69ca05b

@@ -1,0 +1,74 @@
+slice_name: Liquid assets
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - subtotal
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_g1ruyrjy3mc_59mtf4b64yt
+    isExtra: false
+    isNew: false
+    operator: NOT IN
+    operatorId: NOT_IN
+    sqlExpression: null
+    subject: Code
+  - clause: WHERE
+    comparator: '%Liquid%'
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_wxpz25kcnhr_klsz0y4pdz
+    isExtra: false
+    isNew: false
+    operator: LIKE
+    operatorId: LIKE
+    sqlExpression: null
+    subject: Liquidity
+  annotation_layers: []
+  color_scheme: supersetColors
+  comparison_type: values
+  dashboards:
+  - 9
+  datasource: 39__table
+  extra_form_data: {}
+  forecastInterval: 0.8
+  forecastPeriods: 10
+  granularity_sqla: Date
+  groupby:
+  - Name
+  legendOrientation: top
+  legendType: scroll
+  metrics:
+  - sum_value
+  only_total: true
+  order_desc: true
+  orientation: vertical
+  rich_tooltip: true
+  row_limit: 10000
+  show_empty_columns: true
+  show_legend: true
+  show_value: true
+  slice_id: 185
+  stack: Stack
+  time_grain_sqla: P1W
+  time_range: No filter
+  tooltipTimeFormat: smart_date
+  truncate_metric: true
+  viz_type: echarts_timeseries_bar
+  x_axis_time_format: smart_date
+  x_axis_title_margin: 15
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: $,.3s
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  zoomable: true
+cache_timeout: null
+uuid: 4baf23a3-d9a0-45f5-912e-f540a4777947
+version: 1.0.0
+dataset_uuid: 63522e2d-b7ae-493a-8954-5feab69ca05b

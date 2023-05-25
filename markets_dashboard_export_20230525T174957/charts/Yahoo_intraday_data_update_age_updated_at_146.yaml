@@ -1,0 +1,79 @@
+slice_name: Yahoo intraday data update age (updated_at)
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  adhoc_filters: []
+  annotation_layers: []
+  color_scheme: supersetColors
+  comparison_type: values
+  dashboards:
+  - 8
+  datasource: 32__table
+  extra_form_data: {}
+  forecastInterval: 0.8
+  forecastPeriods: 10
+  granularity_sqla: updated_at
+  groupby: []
+  legendOrientation: top
+  legendType: scroll
+  logAxis: false
+  metrics:
+  - aggregate: COUNT_DISTINCT
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: symbol_id
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 855
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: VARCHAR(30)
+      type_generic: 1
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: COUNT_DISTINCT(symbol_id)
+    optionName: metric_dqphqo9kl8e_dt1llc6ijjo
+    sqlExpression: null
+  minorSplitLine: false
+  only_total: true
+  order_desc: true
+  orientation: vertical
+  rich_tooltip: true
+  row_limit: 1000
+  show_empty_columns: true
+  show_legend: true
+  slice_id: 146
+  stack: Stack
+  time_grain_sqla: PT1H
+  time_range: 'DATEADD(DATETIME("now"), -1, day) : DATEADD(DATETIME("now"), 1, day)'
+  timeseries_limit_metric: []
+  tooltipTimeFormat: smart_date
+  truncateYAxis: false
+  truncate_metric: true
+  viz_type: echarts_timeseries_bar
+  xAxisLabelRotation: 0
+  x_axis_time_format: smart_date
+  x_axis_title: ''
+  x_axis_title_margin: 15
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: SMART_NUMBER
+  y_axis_title: ''
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+cache_timeout: null
+uuid: 28627c9c-4c0d-4105-b3f3-9f7374608e73
+version: 1.0.0
+dataset_uuid: 80d9b80d-1b5c-4dcf-9d33-009e046abe9d

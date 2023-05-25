@@ -1,0 +1,80 @@
+slice_name: 'Total spending (ex: income, financial, taxes)'
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - Financial
+    - Payments
+    - Income
+    - Tax - Property
+    - Tax - Income
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_twcpjxpc99_fn5zejk30a
+    isExtra: false
+    isNew: false
+    operator: NOT IN
+    operatorId: NOT_IN
+    sqlExpression: null
+    subject: Category
+  - clause: WHERE
+    comparator:
+    - Chase CC business
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_v8daxs82h4i_wd2p467hn5m
+    isExtra: false
+    isNew: false
+    operator: NOT IN
+    operatorId: NOT_IN
+    sqlExpression: null
+    subject: Source
+  annotation_layers: []
+  color_scheme: supersetColors
+  comparison_type: values
+  dashboards:
+  - 9
+  datasource: 38__table
+  extra_form_data: {}
+  forecastInterval: 0.8
+  forecastPeriods: 10
+  granularity_sqla: Month
+  groupby:
+  - Category
+  legendOrientation: top
+  legendType: scroll
+  metrics:
+  - amount_sum
+  minorSplitLine: true
+  only_total: true
+  order_desc: true
+  orientation: vertical
+  rich_tooltip: true
+  row_limit: 10000
+  show_empty_columns: true
+  show_legend: true
+  show_value: true
+  slice_id: 177
+  stack: Stack
+  time_grain_sqla: P1M
+  time_range: Last year
+  tooltipTimeFormat: smart_date
+  truncate_metric: true
+  viz_type: echarts_timeseries_bar
+  x_axis_time_format: smart_date
+  x_axis_title_margin: 15
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: $,f
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  zoomable: true
+cache_timeout: null
+uuid: 8ec6c66f-08e6-47b3-90c1-506b130fa061
+version: 1.0.0
+dataset_uuid: df629788-24f3-4f8d-9d05-2b1a32da369a

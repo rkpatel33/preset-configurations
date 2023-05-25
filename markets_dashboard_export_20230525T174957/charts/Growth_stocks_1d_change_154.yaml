@@ -1,0 +1,68 @@
+slice_name: Growth stocks 1d change
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_line
+params:
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - PTON
+    - TSLA
+    - HOOD
+    - AFRM
+    - SNOW
+    - COIN
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_o3mki0j3xs_dv44onwjctc
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: symbol
+  annotation_layers: []
+  color_scheme: supersetColors
+  comparison_type: values
+  dashboards:
+  - 8
+  datasource: 36__table
+  extra_form_data: {}
+  forecastInterval: 0.8
+  forecastPeriods: 10
+  granularity_sqla: datetime
+  groupby:
+  - name
+  legendOrientation: top
+  legendType: scroll
+  markerSize: 6
+  metrics:
+  - pct_change_1d_ago
+  only_total: true
+  opacity: 0.2
+  order_desc: true
+  rich_tooltip: true
+  row_limit: 10000
+  seriesType: line
+  show_empty_columns: true
+  show_legend: true
+  slice_id: 154
+  stack: null
+  time_grain_sqla: PT1M
+  time_range: No filter
+  tooltipTimeFormat: smart_date
+  truncate_metric: true
+  viz_type: echarts_timeseries_line
+  x_axis_time_format: smart_date
+  x_axis_title_margin: 15
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: .2%
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+cache_timeout: null
+uuid: bf581e3a-07e2-4df3-bd04-5eeef49455a1
+version: 1.0.0
+dataset_uuid: d0774761-a641-442a-acd9-55aff9c7a644

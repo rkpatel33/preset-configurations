@@ -1,0 +1,63 @@
+slice_name: Bitcoin
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_line
+params:
+  adhoc_filters:
+  - clause: WHERE
+    comparator: BTC-USD
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_xbidpu4v86j_9nila4vnrt5
+    isExtra: false
+    isNew: false
+    operator: ==
+    operatorId: EQUALS
+    sqlExpression: null
+    subject: symbol
+  annotation_layers: []
+  color_scheme: supersetColors
+  comparison_type: values
+  dashboards:
+  - 8
+  datasource: 34__table
+  extra_form_data: {}
+  forecastInterval: 0.8
+  forecastPeriods: 10
+  granularity_sqla: date
+  groupby:
+  - symbol
+  legendOrientation: top
+  legendType: scroll
+  markerSize: 6
+  metrics:
+  - avg_close
+  only_total: true
+  opacity: 0.2
+  order_desc: true
+  rich_tooltip: true
+  row_limit: 10000
+  seriesType: line
+  show_empty_columns: true
+  show_legend: true
+  slice_id: 167
+  stack: null
+  time_grain_sqla: PT1M
+  time_range: 'DATETIME("1 year ago" ) : DATETIME("tomorrow")'
+  tooltipTimeFormat: smart_date
+  truncateYAxis: true
+  truncate_metric: true
+  viz_type: echarts_timeseries_line
+  x_axis_time_format: smart_date
+  x_axis_title_margin: 15
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: $,.2f
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+cache_timeout: null
+uuid: 34458365-dd1b-450d-a045-01ff84b0b1e4
+version: 1.0.0
+dataset_uuid: f6feb2d7-9625-496f-bdd5-e84d7ac029ce

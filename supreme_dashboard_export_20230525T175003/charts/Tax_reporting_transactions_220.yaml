@@ -1,0 +1,69 @@
+slice_name: Tax reporting transactions
+description: null
+certified_by: null
+certification_details: null
+viz_type: pivot_table_v2
+params:
+  datasource: 38__table
+  viz_type: pivot_table_v2
+  slice_id: 220
+  groupbyColumns:
+  - Month
+  groupbyRows:
+  - Category
+  - Vendor
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    Date: true
+    Month: true
+  metrics:
+  - amount_sum
+  metricsLayout: COLUMNS
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: Month
+    operator: TEMPORAL_RANGE
+    comparator: 'DATEADD(DATETIME("now"), -15, month) : now'
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_bx3ti86yvqm_okeldkjgszh
+  - expressionType: SIMPLE
+    subject: Category
+    operator: IN
+    operatorId: IN
+    comparator:
+    - Business services
+    - Mortgage and rent
+    - Subscriptions
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_nb3avzmar1_fwxyzsvrbz7
+  row_limit: 10000
+  order_desc: true
+  aggregateFunction: Sum
+  rowTotals: true
+  colTotals: true
+  transposePivot: false
+  combineMetric: false
+  valueFormat: $,f
+  date_format: smart_date
+  rowOrder: key_a_to_z
+  colOrder: key_a_to_z
+  conditional_formatting:
+  - colorScheme: '#ACE1C4'
+    column: amount_sum
+    operator: '>'
+    targetValue: 0
+  extra_form_data: {}
+  dashboards:
+  - 9
+cache_timeout: null
+uuid: 62f0af64-55e6-4f8d-a93b-c334682df6f2
+version: 1.0.0
+dataset_uuid: df629788-24f3-4f8d-9d05-2b1a32da369a

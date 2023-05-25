@@ -1,0 +1,57 @@
+slice_name: Recent releases
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 21__table
+  viz_type: table
+  slice_id: 93
+  granularity_sqla: last_updated
+  time_grain_sqla: P1D
+  time_range: 'DATEADD(DATETIME("now"), -3, day) : now'
+  query_mode: raw
+  groupby: []
+  all_columns:
+  - series_id
+  - title
+  - last_updated
+  - frequency
+  - units
+  - popularity
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - Daily
+    - Daily, Close
+    - Daily, 7-Day
+    expressionType: SIMPLE
+    filterOptionName: filter_37imbqnkh48_lw8j27d6hnq
+    isExtra: false
+    isNew: false
+    operator: NOT IN
+    operatorId: NOT_IN
+    sqlExpression: null
+    subject: frequency
+  order_by_cols:
+  - '["last_updated", false]'
+  - '["title", true]'
+  server_pagination: true
+  row_limit: 1000
+  server_page_length: 50
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  column_config:
+    last_updated:
+      d3TimeFormat: '%Y-%m-%d %H:%M:%S'
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: f7c48f17-d524-404b-9c89-59bdbf64f829
+version: 1.0.0
+dataset_uuid: a437f7e8-72f8-4a21-81e2-b2637b46b7c6

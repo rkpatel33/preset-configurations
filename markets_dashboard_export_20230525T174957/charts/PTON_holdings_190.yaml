@@ -1,0 +1,43 @@
+slice_name: PTON holdings
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 37__table
+  viz_type: big_number_total
+  granularity_sqla: date
+  time_range: No filter
+  metric:
+    expressionType: SQL
+    sqlExpression: AVG(close)*80700
+    column: null
+    aggregate: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: AVG(close)*80700
+    optionName: metric_gl6ts67x8i_3llvstfpc89
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: symbol
+    operator: IN
+    operatorId: IN
+    comparator:
+    - PTON
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_pbu1sll7yis_8oj12o6iibh
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: $,f
+  time_format: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 592b7357-278f-4c5b-98ee-78d133451070
+version: 1.0.0
+dataset_uuid: be3d6802-4bff-4b90-99c2-a91da4c407ee

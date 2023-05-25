@@ -1,0 +1,79 @@
+slice_name: Natural gas future 5y
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_line
+params:
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - NG=F
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_xbidpu4v86j_9nila4vnrt5
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: symbol
+  annotation_layers:
+  - annotationType: EVENT
+    color: null
+    descriptionColumns: []
+    hideLine: false
+    name: Event
+    opacity: ''
+    overrides:
+      time_range: null
+    show: true
+    showLabel: false
+    showMarkers: false
+    sourceType: NATIVE
+    style: solid
+    value: 1
+    width: 1
+  color_scheme: supersetColors
+  comparison_type: values
+  dashboards:
+  - 8
+  datasource: 34__table
+  extra_form_data: {}
+  forecastInterval: 0.8
+  forecastPeriods: 10
+  granularity_sqla: date
+  groupby:
+  - name
+  legendOrientation: top
+  legendType: scroll
+  markerSize: 6
+  metrics:
+  - avg_close
+  only_total: true
+  opacity: 0.2
+  order_desc: true
+  rich_tooltip: true
+  row_limit: 10000
+  seriesType: line
+  show_empty_columns: true
+  show_legend: true
+  slice_id: 113
+  stack: null
+  time_grain_sqla: PT1M
+  time_range: 'DATEADD(DATETIME("now"), -5, year) : DATETIME("tomorrow")'
+  tooltipTimeFormat: smart_date
+  truncateYAxis: true
+  truncate_metric: true
+  viz_type: echarts_timeseries_line
+  x_axis_time_format: smart_date
+  x_axis_title_margin: 15
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: $,.2f
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+cache_timeout: null
+uuid: 01596ed0-30a8-408f-95be-fafd0fce79cd
+version: 1.0.0
+dataset_uuid: f6feb2d7-9625-496f-bdd5-e84d7ac029ce

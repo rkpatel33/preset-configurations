@@ -1,0 +1,64 @@
+slice_name: Monetary Authority; Security Repurchase Agreements, Reverse Repurchase
+  Agreement Operations; Liability
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - BOGZ1FL712151103Q
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_98rccyjf2de_o7sceym1py8
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: series_id
+  annotation_layers: []
+  color_scheme: supersetColors
+  comparison_type: values
+  dashboards:
+  - 8
+  datasource: 25__table
+  extra_form_data: {}
+  forecastInterval: 0.8
+  forecastPeriods: 10
+  granularity_sqla: date
+  groupby:
+  - title
+  legendOrientation: top
+  legendType: scroll
+  metrics:
+  - avg
+  only_total: true
+  order_desc: true
+  orientation: vertical
+  rich_tooltip: true
+  row_limit: 10000
+  show_empty_columns: true
+  show_legend: true
+  slice_id: 211
+  stack: null
+  time_grain_sqla: PT1M
+  time_range: 'DATETIME("15 year ago" ) : DATETIME("tomorrow")'
+  tooltipTimeFormat: smart_date
+  truncateYAxis: true
+  truncate_metric: true
+  viz_type: echarts_timeseries_bar
+  x_axis_time_format: smart_date
+  x_axis_title_margin: 15
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: $,f
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  zoomable: true
+cache_timeout: null
+uuid: c315991e-75fe-4d63-909e-6495eb22e1f6
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

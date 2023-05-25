@@ -1,0 +1,82 @@
+slice_name: Copper (FRED)
+description: null
+certified_by: null
+certification_details: null
+viz_type: mixed_timeseries
+params:
+  datasource: 25__table
+  viz_type: mixed_timeseries
+  slice_id: 122
+  granularity_sqla: date
+  time_grain_sqla: P1D
+  time_range: 'DATEADD(DATETIME("now"), -10, year) : now'
+  metrics:
+  - avg
+  groupby:
+  - title
+  adhoc_filters:
+  - clause: WHERE
+    comparator: '%Global price of Copper%'
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_8gzswmnq0di_i7bual8oxes
+    isExtra: false
+    isNew: false
+    operator: LIKE
+    operatorId: LIKE
+    sqlExpression: null
+    subject: title
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  comparison_type: values
+  metrics_b:
+  - avg
+  groupby_b:
+  - title
+  adhoc_filters_b:
+  - clause: WHERE
+    comparator: '%Producer Price Index by Commodity%Copper%'
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_4a0ysayx96s_tbxq32c85kk
+    isExtra: false
+    isNew: false
+    operator: LIKE
+    operatorId: LIKE
+    sqlExpression: null
+    subject: title
+  order_desc_b: true
+  row_limit_b: 10000
+  truncate_metric_b: true
+  comparison_type_b: values
+  annotation_layers: []
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  color_scheme: supersetColors
+  seriesType: line
+  opacity: 0.2
+  markerSize: 6
+  seriesTypeB: line
+  opacityB: 0.2
+  markerSizeB: 6
+  yAxisIndexB: 1
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: $,.2f
+  y_axis_format_secondary: SMART_NUMBER
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 7061da68-c5fc-4a40-bb0b-82b64126510f
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

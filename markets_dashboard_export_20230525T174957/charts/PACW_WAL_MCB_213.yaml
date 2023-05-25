@@ -1,0 +1,78 @@
+slice_name: PACW, WAL, MCB
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_line
+params:
+  datasource: 34__table
+  viz_type: echarts_timeseries_line
+  slice_id: 213
+  x_axis: date
+  time_grain_sqla: PT1M
+  x_axis_sort_asc: true
+  metrics:
+  - avg_close
+  groupby:
+  - symbol
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: symbol
+    operator: IN
+    operatorId: IN
+    comparator:
+    - PACW
+    - MCB
+    - WAL
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_xbidpu4v86j_9nila4vnrt5
+  - expressionType: SIMPLE
+    subject: date
+    operator: TEMPORAL_RANGE
+    comparator: 'DATETIME("2 year ago" ) : DATETIME("tomorrow")'
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_wl4psatj9c_j24fvj2sri
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  sort_series_type: sum
+  color_scheme: supersetColors
+  seriesType: line
+  stack: null
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  zoomable: true
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: $,.2f
+  truncateYAxis: true
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: e0c08c25-eca0-441b-ba1a-2020bb7596dc
+version: 1.0.0
+dataset_uuid: f6feb2d7-9625-496f-bdd5-e84d7ac029ce

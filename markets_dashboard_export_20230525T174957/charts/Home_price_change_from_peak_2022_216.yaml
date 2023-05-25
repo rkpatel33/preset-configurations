@@ -1,0 +1,72 @@
+slice_name: Home price change from peak (2022)
+description: null
+certified_by: null
+certification_details: null
+viz_type: compare
+params:
+  datasource: 25__table
+  viz_type: compare
+  slice_id: 216
+  granularity_sqla: date
+  time_grain_sqla: PT1M
+  time_range: 'DATETIME("24 months ago" ) : DATETIME("tomorrow" )'
+  metrics:
+  - avg
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: date
+    operator: TEMPORAL_RANGE
+    comparator: '2022-06-01 : DATETIME("tomorrow" )'
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_7wynqq2j7ue_clhjt39tbdj
+  - expressionType: SIMPLE
+    subject: series_id
+    operator: IN
+    operatorId: IN
+    comparator:
+    - CSUSHPISA
+    - CHXRSA
+    - DAXRSA
+    - LXXRSA
+    - MIXRSA
+    - NYXRSA
+    - PHXRSA
+    - SDXRSA
+    - SEXRSA
+    - SFXRSA
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_kidmk3b8pw9_o5tmok3i1sc
+  groupby:
+  - title
+  limit: 100
+  order_desc: true
+  row_limit: '100000'
+  color_scheme: supersetColors
+  bottom_margin: auto
+  x_ticks_layout: auto
+  x_axis_format: smart_date
+  left_margin: auto
+  y_axis_showminmax: false
+  y_axis_format: ',.1%'
+  y_axis_bounds:
+  - null
+  - null
+  rolling_type: None
+  comparison_type: values
+  resample_method: bfill
+  annotation_layers: []
+  extra_form_data: {}
+  dashboards:
+  - 8
+cache_timeout: null
+uuid: 1c4b4659-10b7-4db3-8e05-94d7c01049c6
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

@@ -1,0 +1,99 @@
+slice_name: CPI all, food, energy, shelter
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_line
+params:
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - CPIAUCSL
+    - CPIUFDSL
+    - CPIENGSL
+    - CUSR0000SAH1
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_9alb8t4q1lt_mmhx4ws66no
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: series_id
+  annotation_layers: []
+  area: false
+  color_scheme: supersetColors
+  comparison_type: percentage
+  dashboards:
+  - 8
+  datasource: 25__table
+  extra_form_data: {}
+  forecastInterval: 0.8
+  forecastPeriods: 10
+  granularity_sqla: date
+  groupby:
+  - title
+  legendMargin: null
+  legendOrientation: top
+  legendType: scroll
+  markerEnabled: true
+  markerSize: 2
+  metrics:
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: value
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 768
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: FLOAT
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    isNew: false
+    label: AVG(value)
+    optionName: metric_udbdu7y81b_2km0gux8ypf
+    sqlExpression: null
+  only_total: true
+  opacity: 0.2
+  order_desc: true
+  resample_method: linear
+  resample_rule: 1MS
+  rich_tooltip: true
+  row_limit: 10000
+  seriesType: line
+  show_empty_columns: true
+  show_legend: true
+  show_value: false
+  slice_id: 126
+  stack: null
+  time_compare:
+  - 1 year ago
+  time_grain_sqla: P1D
+  time_range: 'DATEADD(DATETIME("now"), -20, year) : now'
+  tooltipSortByMetric: false
+  tooltipTimeFormat: smart_date
+  truncate_metric: true
+  viz_type: echarts_timeseries_line
+  x_axis_time_format: smart_date
+  x_axis_title_margin: 15
+  y_axis_bounds:
+  - null
+  - null
+  y_axis_format: ',.1%'
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  zoomable: false
+cache_timeout: null
+uuid: 53f71b3d-c4b2-45e6-940c-f6c604c52482
+version: 1.0.0
+dataset_uuid: 8f8d45ac-462b-4728-8490-8cc9836ddcbe

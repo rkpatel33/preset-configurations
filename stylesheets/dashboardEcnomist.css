@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+
+    .dashboard-content table thead th {
+        /* Economist gray */
+        background-color: rgb(245, 244, 239);
+    }
+
+    .dashboard-content table .table .table-striped tbody {
+        tr:nth-child(odd) {
+            /* Adjusted darker shade of Economist gray */
+            background-color: rgb(171, 170, 167);
+        }
+    }
+
+    .dashboard-content .grid-container .dashboard-component-chart-holder {
+        /* Economist gray */
+        background-color: rgb(245, 244, 239);
+    }
+}
